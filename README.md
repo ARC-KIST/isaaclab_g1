@@ -1,6 +1,6 @@
 # ARC Humanoid Robot Training for Isaac Lab
 
-[![IsaacSim](https://img.shields.io/badge/IsaacSim-4.0.0-silver.svg)](https://docs.omniverse.nvidia.com/isaacsim/latest/overview.html)
+[![IsaacSim](https://img.shields.io/badge/IsaacSim-4.1.0-silver.svg)](https://docs.omniverse.nvidia.com/isaacsim/latest/overview.html)
 [![Isaac Lab](https://img.shields.io/badge/IsaacLab-1.0.0-silver)](https://isaac-sim.github.io/IsaacLab)
 [![Python](https://img.shields.io/badge/python-3.10-blue.svg)](https://docs.python.org/3/whatsnew/3.10.html)
 [![Linux platform](https://img.shields.io/badge/platform-linux--64-orange.svg)](https://releases.ubuntu.com/20.04/)
@@ -8,6 +8,10 @@
 [![License](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/license/mit)
 
 ## Overview
+>[!note]  
+> This repository is for training G1 using RL in IsaacLab.  
+> All the code is sourced from [IsaacLab](https://github.com/isaac-sim/IsaacLab.git), with modifications made to the task names.  
+> **Editor**: [_Sol Choi_](https://github.com/S-CHOI-S)
 
 This repository serves as a template for building projects or extensions based on Isaac Lab. It allows you to develop in an isolated environment, outside of the core Isaac Lab repository.
 
