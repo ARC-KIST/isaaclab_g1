@@ -3,11 +3,11 @@ import omni.isaac.lab.sim as sim_utils
 from omni.isaac.lab.actuators import ImplicitActuatorCfg
 from omni.isaac.lab.assets.articulation import ArticulationCfg
 
-from isaaclab_g1.robots.G1 import ISAACLAB_G1_EXT_DIR
+from isaaclab_franka.robots.G1 import ISAACLAB_FRANKA_EXT_DIR
 
 # G1_CFG = ArticulationCfg(
 #     spawn=sim_utils.UsdFileCfg(
-#         usd_path=f"{ISAACLAB_G1_EXT_DIR}/g1.usd",
+#         usd_path=f"{ISAACLAB_FRANKA_EXT_DIR}/g1.usd",
 #         activate_contact_sensors=True,
 #         rigid_props=sim_utils.RigidBodyPropertiesCfg(
 #             disable_gravity=False,
@@ -162,7 +162,7 @@ from isaaclab_g1.robots.G1 import ISAACLAB_G1_EXT_DIR
 
 G1_CFG = ArticulationCfg(
     spawn=sim_utils.UsdFileCfg(
-        usd_path=f"{ISAACLAB_G1_EXT_DIR}/g1.usd",
+        usd_path=f"{ISAACLAB_FRANKA_EXT_DIR}/g1.usd",
         activate_contact_sensors=True,
         rigid_props=sim_utils.RigidBodyPropertiesCfg(
             disable_gravity=False,

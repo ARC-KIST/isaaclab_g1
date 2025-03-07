@@ -73,7 +73,7 @@ from omni.isaac.lab.utils.assets import check_file_path
 from omni.isaac.lab.utils.dict import print_dict
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-assets_path = os.path.join(BASE_DIR, "../exts/isaaclab_g1/isaaclab_g1/robots/")
+assets_path = os.path.join(BASE_DIR, "../exts/isaaclab_franka/isaaclab_franka/robots/")
 
 def main():
     # check valid file path

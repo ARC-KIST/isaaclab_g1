@@ -1,4 +1,4 @@
-"""Installation script for the 'isaaclab_g1' python package."""
+"""Installation script for the 'isaaclab_franka' python package."""
 
 import os
 import toml
@@ -18,8 +18,8 @@ INSTALL_REQUIRES = [
 
 # Installation operation
 setup(
-    name="isaaclab_g1",
-    packages=["isaaclab_g1"],
+    name="isaaclab_franka",
+    packages=["isaaclab_franka"],
     author=EXTENSION_TOML_DATA["package"]["author"],
     maintainer=EXTENSION_TOML_DATA["package"]["maintainer"],
     url=EXTENSION_TOML_DATA["package"]["repository"],

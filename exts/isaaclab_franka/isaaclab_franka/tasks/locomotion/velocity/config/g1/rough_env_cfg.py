@@ -2,8 +2,8 @@ from omni.isaac.lab.managers import RewardTermCfg as RewTerm
 from omni.isaac.lab.managers import SceneEntityCfg
 from omni.isaac.lab.managers import TerminationTermCfg as DoneTerm
 
-import isaaclab_g1.tasks.locomotion.velocity.mdp as mdp
-from isaaclab_g1.tasks.locomotion.velocity.velocity_env_cfg import (
+import isaaclab_franka.tasks.locomotion.velocity.mdp as mdp
+from isaaclab_franka.tasks.locomotion.velocity.velocity_env_cfg import (
     LocomotionVelocityRoughEnvCfg,
     RewardsCfg,
 )
@@ -13,7 +13,7 @@ from omni.isaac.lab.utils import configclass
 ##
 # Pre-defined configs
 ##
-from isaaclab_g1.robots.G1.g1 import G1_CFG
+from isaaclab_franka.robots.G1.g1 import G1_CFG
 
 
 # @configclass

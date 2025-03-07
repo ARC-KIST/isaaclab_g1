@@ -26,10 +26,10 @@ This repository serves as a template for building projects or extensions based o
 ### Installation
 
 
-- Throughout the repository, the name `isaaclab_g1` only serves as an example and we provide a script to rename all the references to it automatically:
+- Throughout the repository, the name `isaaclab_franka` only serves as an example and we provide a script to rename all the references to it automatically:
 
 ```
-# Rename all occurrences of isaaclab_g1 (in files/directories) to your_fancy_extension_name
+# Rename all occurrences of isaaclab_franka (in files/directories) to your_fancy_extension_name
 python scripts/rename_template.py your_fancy_extension_name
 ```
 
@@ -38,7 +38,7 @@ python scripts/rename_template.py your_fancy_extension_name
 - Using a python interpreter that has Isaac Lab installed, install the library
 
 ```
-cd exts/isaaclab_g1
+cd exts/isaaclab_franka
 python -m pip install -e .
 ```
 
@@ -53,7 +53,7 @@ If everything executes correctly, it should create a file .python.env in the .vs
 
 #### Setup as Omniverse Extension (Optional)
 
-We provide an example UI extension that will load upon enabling your extension defined in `exts/isaaclab_g1/isaaclab_g1/ui_extension_example.py`. For more information on UI extensions, enable and check out the source code of the `omni.isaac.ui_template` extension and refer to the introduction on [Isaac Sim Workflows 1.2.3. GUI](https://docs.omniverse.nvidia.com/isaacsim/latest/introductory_tutorials/tutorial_intro_workflows.html#gui).
+We provide an example UI extension that will load upon enabling your extension defined in `exts/isaaclab_franka/isaaclab_franka/ui_extension_example.py`. For more information on UI extensions, enable and check out the source code of the `omni.isaac.ui_template` extension and refer to the introduction on [Isaac Sim Workflows 1.2.3. GUI](https://docs.omniverse.nvidia.com/isaacsim/latest/introductory_tutorials/tutorial_intro_workflows.html#gui).
 
 To enable your extension, follow these steps:
 

@@ -11,7 +11,7 @@ title = "ARC Robot Extension"
 author = "Sol Choi"
 maintainer = "Sol Choi"
 description="ARC Robot Training for Isaac Lab"
-repository = "https://github.com/ARC-KIST/isaaclab_g1.git"
+repository = "https://github.com/ARC-KIST/isaaclab_franka.git"
 keywords = ["extension", "ARC", "humanoid", "RL", "isaaclab"]
 
 [dependencies]
@@ -21,7 +21,7 @@ keywords = ["extension", "ARC", "humanoid", "RL", "isaaclab"]
 # NOTE: Add additional dependencies here
 
 [[python.module]]
-name = "isaaclab_g1"
+name = "isaaclab_franka"
 
 [isaaclab_settings]
 # TODO: Uncomment and list any apt dependencies here.
